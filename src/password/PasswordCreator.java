@@ -1,3 +1,5 @@
+package password;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -7,9 +9,9 @@ public class PasswordCreator {
 	private static char ranNumber;
 	// v Insipirado pela Amannitta!!! Não foi feito originalmente por mim!!!!!
 	// Confira o repositório dela: https://github.com/Amannitta/Gerador-de-Senhas
-	private static String opcoesGeral = "abcçdefghijklmnopqrstuvwxyzABCÇDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$_%&?*§=+¢/\\",
-			opcoesLetra = "abcçdefghijklmnopqrstuvwxyzABCÇDEFGHIJKLMNOPQRSTUVWXYZ",
-			opcoesMais = "0123456789!@#$_%&?*§=+¢/\\";
+	private static String opcoesGeral = "abcçdefghijklmnopqrstuvwxyzABCÇDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$_%&?*§=+¢/\\";
+	private static String opcoesLetra = "abcçdefghijklmnopqrstuvwxyzABCÇDEFGHIJKLMNOPQRSTUVWXYZ";
+	private static String opcoesMais = "0123456789!@#$_%&?*§=+¢/\\";
 
 	public static void geradorSenha(int qnt) {
 		if (qnt > 5) {

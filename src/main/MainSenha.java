@@ -1,7 +1,11 @@
+package main;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class CriadorDeSenha {
+import password.PasswordCreator;
+
+public class MainSenha {
 	static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
