@@ -7,9 +7,9 @@ Sistema que de acordo com o tamanho da senha informado pelo usuário, gera uma s
 3. Você receberá a senha!
 
 ## Conceitos aplicados 🧠⚡
-* Arrays
+* Aplicação de Arrays
 * Métodos Strings
 * Implementação das classe Random e Scanner
-* Controle de Fluxo (If)
-* Laços de Repetição (For)
+* Controle de Fluxo
+* Laços de Repetição
 * Manuseio de Exceptions
