@@ -12,7 +12,12 @@ public class MainSenha {
 		System.out.println("Quantos digitos você vai querer a sua senha?");
 		try {
 			int leitor = scanner.nextInt();
-			PasswordCreator.geradorSenha(leitor);
+			if (leitor > 7) {
+				PasswordCreator.generatorShort(leitor);
+			} else {
+				PasswordCreator.generatorDefault(leitor);
+			}
+			PasswordCreator.showPassword();
 		} catch (InputMismatchException ime) {
 			System.out.println("Valor inválido.");
 		} finally {
